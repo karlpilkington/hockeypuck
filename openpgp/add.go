@@ -30,8 +30,8 @@ import (
 	"github.com/jmoiron/sqlx"
 	"github.com/juju/errors"
 
-	. "github.com/hockeypuck/hockeypuck/errors"
-	"github.com/hockeypuck/hockeypuck/hkp"
+	. "gopkg.in/hockeypuck/hockeypuck.v2/errors"
+	"gopkg.in/hockeypuck/hockeypuck.v2/hkp"
 )
 
 // KeyChangeChan channels are used for sending and receiving

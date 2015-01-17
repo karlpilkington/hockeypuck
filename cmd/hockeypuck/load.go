@@ -26,14 +26,14 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/cmars/conflux"
-	"github.com/cmars/conflux/recon"
+	"gopkg.in/hockeypuck/conflux.v2"
+	"gopkg.in/hockeypuck/conflux.v2/recon"
 	"github.com/jmoiron/sqlx"
 	"github.com/lib/pq"
 	"launchpad.net/gnuflag"
 
-	. "github.com/hockeypuck/hockeypuck"
-	"github.com/hockeypuck/hockeypuck/openpgp"
+	. "gopkg.in/hockeypuck/hockeypuck.v2"
+	"gopkg.in/hockeypuck/hockeypuck.v2/openpgp"
 )
 
 type loadCmd struct {

@@ -24,12 +24,12 @@ import (
 	"log"
 	"strings"
 
-	"github.com/cmars/conflux"
-	"github.com/cmars/conflux/recon"
+	"gopkg.in/hockeypuck/conflux.v2"
+	"gopkg.in/hockeypuck/conflux.v2/recon"
 
-	. "github.com/hockeypuck/hockeypuck"
-	"github.com/hockeypuck/hockeypuck/openpgp"
-	"github.com/hockeypuck/hockeypuck/util"
+	. "gopkg.in/hockeypuck/hockeypuck.v2"
+	"gopkg.in/hockeypuck/hockeypuck.v2/openpgp"
+	"gopkg.in/hockeypuck/hockeypuck.v2/util"
 	"launchpad.net/gnuflag"
 )
 

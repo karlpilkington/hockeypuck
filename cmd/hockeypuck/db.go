@@ -21,8 +21,8 @@ package main
 import (
 	"launchpad.net/gnuflag"
 
-	. "github.com/hockeypuck/hockeypuck"
-	"github.com/hockeypuck/hockeypuck/openpgp"
+	. "gopkg.in/hockeypuck/hockeypuck.v2"
+	"gopkg.in/hockeypuck/hockeypuck.v2/openpgp"
 )
 
 type dbCmd struct {

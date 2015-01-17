@@ -27,7 +27,7 @@ import (
 	"github.com/jmoiron/sqlx"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/hockeypuck/hockeypuck"
+	"gopkg.in/hockeypuck/hockeypuck.v2"
 )
 
 func connectString() string {

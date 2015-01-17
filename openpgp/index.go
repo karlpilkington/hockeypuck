@@ -29,7 +29,7 @@ import (
 
 	"golang.org/x/crypto/openpgp/packet"
 
-	"github.com/hockeypuck/hockeypuck/hkp"
+	"gopkg.in/hockeypuck/hockeypuck.v2/hkp"
 )
 
 const indexPageTmplSrc = `{{/*

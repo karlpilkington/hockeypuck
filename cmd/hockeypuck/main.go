@@ -26,7 +26,7 @@ import (
 	"path/filepath"
 	"runtime/pprof"
 
-	. "github.com/hockeypuck/hockeypuck"
+	. "gopkg.in/hockeypuck/hockeypuck.v2"
 	"launchpad.net/gnuflag"
 )
 

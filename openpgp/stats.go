@@ -24,8 +24,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/hockeypuck/hockeypuck"
-	"github.com/hockeypuck/hockeypuck/hkp"
+	"gopkg.in/hockeypuck/hockeypuck.v2"
+	"gopkg.in/hockeypuck/hockeypuck.v2/hkp"
 )
 
 var (

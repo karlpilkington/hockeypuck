@@ -26,12 +26,12 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/cmars/conflux/recon"
+	"gopkg.in/hockeypuck/conflux.v2/recon"
 	"github.com/juju/errors"
 
-	"github.com/hockeypuck/hockeypuck"
-	. "github.com/hockeypuck/hockeypuck/errors"
-	"github.com/hockeypuck/hockeypuck/hkp"
+	"gopkg.in/hockeypuck/hockeypuck.v2"
+	. "gopkg.in/hockeypuck/hockeypuck.v2/errors"
+	"gopkg.in/hockeypuck/hockeypuck.v2/hkp"
 )
 
 type ErrorResponse struct {

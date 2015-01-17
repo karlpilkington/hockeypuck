@@ -30,12 +30,12 @@ import (
 	"syscall"
 	"time"
 
-	. "github.com/cmars/conflux"
-	"github.com/cmars/conflux/recon"
-	"github.com/cmars/conflux/recon/leveldb"
+	. "gopkg.in/hockeypuck/conflux.v2"
+	"gopkg.in/hockeypuck/conflux.v2/recon"
+	"gopkg.in/hockeypuck/conflux.v2/recon/leveldb"
 	"github.com/juju/errors"
 
-	"github.com/hockeypuck/hockeypuck/hkp"
+	"gopkg.in/hockeypuck/hockeypuck.v2/hkp"
 )
 
 const RequestChunkSize = 100

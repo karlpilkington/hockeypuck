@@ -25,7 +25,7 @@ import (
 
 	"golang.org/x/crypto/openpgp/armor"
 
-	"github.com/hockeypuck/hockeypuck"
+	"gopkg.in/hockeypuck/hockeypuck.v2"
 )
 
 func init() {

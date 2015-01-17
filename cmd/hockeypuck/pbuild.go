@@ -24,12 +24,12 @@ import (
 	"log"
 	"strings"
 
-	"github.com/cmars/conflux"
-	"github.com/cmars/conflux/recon"
+	"gopkg.in/hockeypuck/conflux.v2"
+	"gopkg.in/hockeypuck/conflux.v2/recon"
 	"launchpad.net/gnuflag"
 
-	. "github.com/hockeypuck/hockeypuck"
-	"github.com/hockeypuck/hockeypuck/openpgp"
+	. "gopkg.in/hockeypuck/hockeypuck.v2"
+	"gopkg.in/hockeypuck/hockeypuck.v2/openpgp"
 )
 
 type pbuildCmd struct {

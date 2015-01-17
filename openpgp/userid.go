@@ -27,7 +27,7 @@ import (
 
 	"golang.org/x/crypto/openpgp/packet"
 
-	"github.com/hockeypuck/hockeypuck/util"
+	"gopkg.in/hockeypuck/hockeypuck.v2/util"
 )
 
 type UserId struct {

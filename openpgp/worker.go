@@ -31,9 +31,9 @@ import (
 	"github.com/jmoiron/sqlx"
 	_ "github.com/lib/pq"
 
-	. "github.com/hockeypuck/hockeypuck/errors"
-	"github.com/hockeypuck/hockeypuck/hkp"
-	"github.com/hockeypuck/hockeypuck/util"
+	. "gopkg.in/hockeypuck/hockeypuck.v2/errors"
+	"gopkg.in/hockeypuck/hockeypuck.v2/hkp"
+	"gopkg.in/hockeypuck/hockeypuck.v2/util"
 )
 
 const LOOKUP_RESULT_LIMIT = 100
